@@ -11,25 +11,31 @@
     <!-- Bootstrap -->
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
     <script type="text/javascript">
       <!--
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-317349-7', 'nagoya-u.ac.jp');
-      ga('send', 'pageview');
-      //-->
+	  ga('create', 'UA-317349-7', 'nagoya-u.ac.jp');
+	  ga('send', 'pageview');
+	  //-->
     </script>
+
+    <style>
+      td.center_middle {
+      text-align:center;
+      vertical-align:middle !important;
+      }
+    </style>
   </head>
   <body style="padding-top:40px;padding-bottom:40px">
 
@@ -80,7 +86,7 @@
 	  <p>Cherenkov Telescope Array (CTA) is the next-generation ground-based very-high-energy (VHE) gamma-ray observatory which is under development with a collaboration among Japan, EU, US, and several other countries. As shown in Figure 1, several tens of telescoeps with different aperture sizes (mirror diameters) are to be built in a wide area of several km<sup>2</sup> to achieve a wide energy coverage of 20 GeV to 300 TeV with 10 times higher gamma-ray detection sensitivity than those of the current telescopes.</p>
 	</div>
 
-	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;">
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;" lang="ja">
 	  <h3>CTA とは</h3>
 	  <p>チェレンコフ望遠鏡アレイ（Cherenkov Telescope Array、CTA）は超高エネルギーガンマ線を地上から観測する次世代の天文台です。図 1 に示すように、異なる口径（鏡直径）の望遠鏡を数 km<sup>2</sup> の広範囲に多数配置することで、20 GeV（ギガ電子ボルト）から 300 TeV（テラ電子ボルト）のエネルギー範囲にわたるガンマ線を、現行のガンマ線望遠鏡の 10 倍のガンマ線検出感度で観測します。日欧米を中心として現在開発が進められており、2017 年の望遠鏡建設に向けて名古屋大学でも精力的に装置開発を進めています。</p>
 
@@ -89,141 +95,278 @@
 	  <p>ガンマ線観測で分かることは高エネルギー天体の性質だけではありません。暗黒物質同士が衝突したとき、その対消滅にともないガンマ線も生成されると考えられており、その特徴的なエネルギースペクトルや空間分布が CTA でも近い将来観測されるかもしれません。</p>
 
 	  <h3>大中小の望遠鏡</h3>
-	  <p>表 1 に示すように、低エネルギー、中エネルギー、高エネルギーの 3 つの帯域を CTA では大口径、中口径、小口径望遠鏡でそれぞれ観測します。望遠鏡の直径を複数使うのは、天文台全体としてのダイナミックレンジを広げるためです。大気チェレンコフ光の光量は入射ガンマ線のエネルギーに比例するため、異なる大きさの望遠鏡を使うことで低エネルギーから高エネルギーまで撮影することが可能になります。</p>
+	  <p>表 1 に示すように、低エネルギー、中エネルギー、高エネルギーの 3 つの帯域を CTA では大口径、中口径、小口径望遠鏡でそれぞれ観測します。異なる大きさの望遠鏡直径を組み合わせるのは、天文台全体としての観測エネルギーのダイナミックレンジを広げるためです。大気チェレンコフ光の光量は入射ガンマ線のエネルギーに比例するため、異なる大きさの望遠鏡を使うことで低エネルギーから高エネルギーまで撮影することが可能になります。</p>
 	  <p>望遠鏡を多数並べるのは、到来頻度の非常に低いガンマ線を広大な面積で検出して光子統計を増やすためです。北半球に約 20 台、南半球に約 100 台の望遠鏡を設置することで、従来のガンマ線望遠鏡よりも 1 桁高いガンマ線検出感度を達成すると期待されています。</p>
 
-  </div>
-
-  <div class="col-md-12 col-sm-12 col-xs-12"><br></div>
-  <div class="col-md-12 col-sm-12 col-xs-12" style="text-align:justify;">
-    <div class="thumbnail">
-      <table class="table table-striped table-condensed">
-	<div class="caption" style="font-size:small;">
-	  Table 1. A spec table of CTA telescopes<br>
-	  表 1. CTA で使用される望遠鏡の性能諸元
 	</div>
-	<thead>
-	  <tr>
-	    <th style="text-align:center;"></th>
-	    <th style="text-align:center;">大口径望遠鏡<br>Large-Sized Telescope<br>(LST)</th>
-	    <th style="text-align:center;" colspan="2">中口径望遠鏡<br>Medium-Sized Telescope<br>(MST)</th>
-	    <th style="text-align:center;">SC 中口径望遠鏡<br>Schwarzschild-Couder<br>MST (SC-MST)</th>
-	    <th style="text-align:center;" colspan="3">小口径望遠鏡<br>Smalle-Sized Telescope<br>(SST)</th>
-	  </tr>
 
-	  <tr>
-	    <th style="text-align:center;"></th>
-	    <th style="text-align:center;"></th>
-	    <th style="text-align:center;">FlashCam</th>
-	    <th style="text-align:center;">NectarCAM</th>
-	    <th style="text-align:center;"></th>
-	    <th style="text-align:center;">GCT</th>
-	    <th style="text-align:center;">ASTRI</th>
-	    <th style="text-align:center;">1M-SST</th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td>観測エネルギー範囲</td>
-	    <td style="text-align:center;">20–200 GeV</td>
-	    <td style="text-align:center;" colspan="2">100 GeV – 10 TeV</td>
-	    <td style="text-align:center;">200 GeV – 10 TeV</td>
-	    <td style="text-align:center;" colspan="3">5–300 TeV</td>
-	  </tr>
+	<div class="col-md-12 col-sm-12 col-xs-12"><br></div>
+	<div class="col-md-12 col-sm-12 col-xs-12" style="text-align:justify;"> 
+	  <div class="thumbnail">
+	    <div class="caption" style="font-size:small;">
+	      Table 1. A spec table of CTA telescopes<br>
+	      表 1. CTA で使用される望遠鏡の性能諸元
+	    </div>
+	    <table class="table table-striped table-condensed">
+	      <thead>
+		<tr>
+		  <th style="text-align:center;"></th>
+		  <th style="text-align:center;">大口径望遠鏡<br>Large-Sized Telescope<br>(LST)</th>
+		  <th style="text-align:center;" colspan="2">中口径望遠鏡<br>Medium-Sized Telescope<br>(MST)</th>
+		  <th style="text-align:center;">SC 中口径望遠鏡<br>Schwarzschild-Couder<br>MST (SC-MST)</th>
+		  <th style="text-align:center;" colspan="3">小口径望遠鏡<br>Smalle-Sized Telescope<br>(SST)</th>
+		</tr>
 
-	  <tr>
-	    <td>設置台数（北半球）</td>
-	    <td style="text-align:center;">4</td>
-	    <td style="text-align:center;" colspan="2">約 15</td>
-	    <td style="text-align:center;">0</td>
-	    <td style="text-align:center;" colspan="3">0</td>
-	  </tr>
-	  
-	  <tr>
-	    <td>設置台数（南半球）</td>
-	    <td style="text-align:center;">4</td>
-	    <td style="text-align:center;" colspan="2">約 24</td>
-	    <td style="text-align:center;">約 24</td>
-	    <td style="text-align:center;" colspan="3">70–90</td>
-	  </tr>
+		<tr>
+		  <th style="text-align:center;"></th>
+		  <th style="text-align:center;"></th>
+		  <th style="text-align:center;">FlashCam</th>
+		  <th style="text-align:center;">NectarCAM</th>
+		  <th style="text-align:center;"></th>
+		  <th style="text-align:center;">GCT</th>
+		  <th style="text-align:center;">ASTRI</th>
+		  <th style="text-align:center;">1M-SST</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr>
+		  <td class="center_middle">エネルギー範囲<br>Energy Range</td>
+		  <td class="center_middle">20–200 GeV</td>
+		  <td class="center_middle" colspan="2">100 GeV – 10 TeV</td>
+		  <td class="center_middle">200 GeV – 10 TeV</td>
+		  <td class="center_middle" colspan="3">5–300 TeV</td>
+		</tr>
 
-	  <tr>
-	    <td>鏡直径</td>
-	    <td style="text-align:center;">23 m</td>
-	    <td style="text-align:center;" colspan="2">12 m</td>
-	    <td style="text-align:center;">9.7 m</td>
-	    <td style="text-align:center;">4 m</td>
-	    <td style="text-align:center;">4 m</td>
-	    <td style="text-align:center;">4 m</td>
-	  </tr>
+		<tr>
+		  <td class="center_middle">台数（北半球）<br>Units (North)</td>
+		  <td class="center_middle">4</td>
+		  <td class="center_middle" colspan="2">15</td>
+		  <td class="center_middle">0</td>
+		  <td class="center_middle" colspan="3">0</td>
+		</tr>
+		
+		<tr>
+		  <td class="center_middle">台数（南半球）<br>Units (South)</td>
+		  <td class="center_middle">4</td>
+		  <td class="center_middle" colspan="2">24</td>
+		  <td class="center_middle">24</td>
+		  <td class="center_middle" colspan="3">70–90</td>
+		</tr>
 
-	  <tr>
-	    <td>焦点距離</td>
-	    <td style="text-align:center;">28 m</td>
-	    <td style="text-align:center;" colspan="2">16 m</td>
-	    <td style="text-align:center;">5.6 m</td>
-	    <td style="text-align:center;">2.3 m</td>
-	    <td style="text-align:center;">2.15 m</td>
-	    <td style="text-align:center;">5.6 m</td>
-	  </tr>
+		<tr>
+		  <td class="center_middle">鏡直径<br>Mirror Diameter</td>
+		  <td class="center_middle">23 m</td>
+		  <td class="center_middle" colspan="2">12 m</td>
+		  <td class="center_middle">9.7 m</td>
+		  <td class="center_middle">4 m</td>
+		  <td class="center_middle">4 m</td>
+		  <td class="center_middle">4 m</td>
+		</tr>
 
-	  <tr>
-	    <td>視野</td>
-	    <td style="text-align:center;">4.5°</td>
-	    <td style="text-align:center;" colspan="2">7°</td>
-	    <td style="text-align:center;">8°</td>
-	    <td style="text-align:center;">8.6°</td>
-	    <td style="text-align:center;">9.6°</td>
-	    <td style="text-align:center;">9°</td>
-	  </tr>
+		<tr>
+		  <td class="center_middle">焦点距離<br>Focal Length</td>
+		  <td class="center_middle">28 m</td>
+		  <td class="center_middle" colspan="2">16 m</td>
+		  <td class="center_middle">5.6 m</td>
+		  <td class="center_middle">2.3 m</td>
+		  <td class="center_middle">2.15 m</td>
+		  <td class="center_middle">5.6 m</td>
+		</tr>
 
-	  <tr>
-	    <td>光学系</td>
-	    <td style="text-align:center;">放物鏡</td>
-	    <td style="text-align:center;" colspan="2">Davies–Cotton (DC)</td>
-	    <td style="text-align:center;">Schwarzschild–Couder (SC)</td>
-	    <td style="text-align:center;">SC</td>
-	    <td style="text-align:center;">SC</td>
-	    <td style="text-align:center;">DC</td>
-	  </tr>
+		<tr>
+		  <td class="center_middle">視野<br>Field of View</td>
+		  <td class="center_middle">4.5°</td>
+		  <td class="center_middle" colspan="2">7.7°</td>
+		  <td class="center_middle">8°</td>
+		  <td class="center_middle">8.6°</td>
+		  <td class="center_middle">9.6°</td>
+		  <td class="center_middle">9°</td>
+		</tr>
 
-	  <tr>
-	    <td>画素数</td>
-	    <td style="text-align:center;">1,855</td>
-	    <td style="text-align:center;">1,764</td>
-	    <td style="text-align:center;">1,855</td>
-	    <td style="text-align:center;">11,328</td>
-	    <td style="text-align:center;">2048</td>
-	    <td style="text-align:center;">1984</td>
-	    <td style="text-align:center;">1296</td>
-	  </tr>
+		<tr>
+		  <td class="center_middle">光学系<br>Optics</td>
+		  <td class="center_middle">放物鏡<br>Parabola</td>
+		  <td class="center_middle" colspan="2">Davies–Cotton (DC)</td>
+		  <td class="center_middle">Schwarzschild–Couder (SC)</td>
+		  <td class="center_middle">SC</td>
+		  <td class="center_middle">SC</td>
+		  <td class="center_middle">DC</td>
+		</tr>
 
-	  <tr>
-	    <td>名古屋大学の活動</td>
-	    <td>・焦点面の集光装置の開発<br>・光学系シミュレーション</td>
-	    <td colspan="2"></td>
-	    <td>・波形記録回路の開発<br>・光学系シミュレーション<br>・半導体光検出器の性能評価</td>
-	    <td colspan="3">・波形記録回路の開発<br>・光学系シミュレーション<br>・半導体光検出器の性能評価<br>・モンテカルロシミュレーション</td>
-	  </tr>
-	</tbody>
-      </table>
-    </div>
-  </div>
+		<tr>
+		  <td class="center_middle">画素数<br>Pixels</td>
+		  <td class="center_middle">1,855</td>
+		  <td class="center_middle">1,764</td>
+		  <td class="center_middle">1,855</td>
+		  <td class="center_middle">11,328</td>
+		  <td class="center_middle">2,048</td>
+		  <td class="center_middle">1,984</td>
+		  <td class="center_middle">1,296</td>
+		</tr>
 
+		<tr>
+		  <td class="center_middle">宇宙地球環境研究所の貢献</td>
+		  <td style="text-align:left;">
+		    <ul>
+		      <li>焦点面の集光装置の開発</li>
+		      <li>光学系シミュレーション</li>
+		    </ul>
+		  </td>
+		  <td colspan="2"></td>
+		  <td style="text-align:left;">
+		    <ul>
+		      <li>波形記録回路の開発</li>
+		      <li>光学系シミュレーション</li>
+		      <li>半導体光検出器の性能評価</li>
+		    </ul>
+		  </td>
+		  <td  style="text-align:left;" colspan="3">
+		    <ul>
+		      <li>波形記録回路の開発</li>
+		      <li>データ取得ソフトウェアの開発</li>
+		      <li>光学系シミュレーション</li>
+		      <li>半導体光検出器の性能評価</li>
+		      <li>モンテカルロシミュレーション</li>
+		    </ul>
+		  </td>
+		</tr>
 
-  <div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;"></div>
+		<tr>
+		  <td class="center_middle">Contributions by ISEE</td>
+		  <td style="text-align:left;">
+		    <ul>
+		      <li>Development of focal plane light concentrators</li>
+		      <li>Optics simulation</li>
+		    </ul>
+		  </td>
+		  <td colspan="2"></td>
+		  <td style="text-align:left;">
+		    <ul>
+		      <li>Development of waveform sampling circuits</li>
+		      <li>Optics simulation</li>
+		      <li>Characterization of silicon photomultipliers</li>
+		    </ul>
+		  </td>
+		  <td style="text-align:left;" colspan="3">
+		    <ul>
+		      <li>Development of waveform sampling circuits</li>
+		      <li>Development of data acquisition software</li>
+		      <li>Optics simulation</li>
+		      <li>Characterization of silicon photomultipliers</li>
+		      <li>Monte Carlo simulation</li>
+		    </ul>
+		  </td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
 
-  <div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;" lang="ja">
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;">
+	  <h3>CTA Activities at ISEE</h3>
+	  <h4>Small-Sized Telescopes</h4>
+	</div>
+	
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;" lang="ja">
 	  <h3>宇宙地球環境研究所の活動</h3>
 	  <p>名古屋大学は CTA 計画に参加する世界中の大学・研究機関の中でも中心的な役割を果たしています。田島宏康教授、奥村曉助教のグループはおもに 3 つの望遠鏡の開発に参加しています。</p>
-
-	  <h4>大口径望遠鏡</h4>
-	  <h4>SC 中口径望遠鏡</h4>
 	  <h4>小口径望遠鏡</h4>
+	  <p>CTA の高エネルギー側を担うのは小口径望遠鏡です。表 1 に示すように小口径望遠鏡には 3 つの設計案が存在し、そのうち Gamma-ray Cherenkov Telescope（GCT）と呼ばれる望遠鏡の開発に宇宙地球環境研究所は参加しています。</p>
+	  <p>GCT では副鏡を有する Schwarzschild-Couder 光学系を使用するため、従来の地上ガンマ線望遠鏡に比べて結像性能が高く、また焦点面カメラの直径が小さくなります。そのため光学性能に合致した小型のカメラが必要になります。宇宙地球環境研究所では図 2 に示すような、64 画素のカメラモジュールを米ハワイ大学、米 SLAC 国立加速器研究所、英レスター大学などとの共同で開発しました。このカメラモジュールを 32 個並べることで、図 3 に示す焦点面カメラを構成します。宇宙地球環境研究所はこのモジュールに使用する集積回路の開発と性能評価、光検出器の性能測定、焦点面カメラの制御とデータ取得ソフトウェアの構築、また光学系シミュレーションを担当しています。</p>
+	  <p>この焦点面カメラはパリ天文台に設置された GCT の試作望遠鏡に搭載され、2015 年 11 月に試験観測を行いました。CTA の試作カメラ・望遠鏡としては初めて、宇宙線陽子の生成した大気チェレンコフ光の観測に成功しました。</p>
 	</div>
+	
+	<div class="col-md-4 col-sm-4 col-xs-4">
+	  <div class="thumbnail">
+	    <img alt="TARGET 5 Module" src="./img/T5-Module.jpg">
+	    <div class="caption" style="font-size:small;">
+	      Fig 2. A prototype camera module for GCT<br>
+	      図 2. GCT 用の試作カメラモジュール
+	    </div>
+	  </div>
+	</div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4">
+	  <div class="thumbnail">
+	    <img alt="CHEC-M" src="./img/CHEC-M.jpg">
+	    <div class="caption" style="font-size:small;">
+	      Fig 3. A prototype focal-plane camera (CHEC-M) for GCT<br>
+	      図 3. GCT 用の試作焦点面カメラ（CHEC-M）
+	    </div>
+	  </div>
+	</div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4">
+	  <div class="thumbnail">
+	    <img alt="Gamma Cherenkov Telescope" src="./img/GCT.jpg">
+	    <div class="caption" style="font-size:small;">
+	      Fig 4. A GCT prototype at Paris Observatory<br>
+	      図 4. パリ天文台に設置された GCT の試作望遠鏡
+	    </div>
+	  </div>
+	</div>
+  
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;">
+	  <h4>SC Medium-Sized Telescopes</h4>
+	</div>
+	
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;" lang="ja">
+	  <h4>SC 中口径望遠鏡</h4>
+	  <p>小口径望遠鏡と同様のカメラモジュールを用いて、SC 中口径望遠鏡の焦点面カメラの開発も平行して進めています。SC 中口径望遠鏡は Davies-Cotton 型ではなく Schwarzschild-Couder 型の光学系を用いるため、視野 9.6°を 4 分角程度の結像性能で見渡すことができます。この焦点面カメラは GCT の焦点面よりも大きく、同じカメラモジュールを 177 個並べます。</p>
+	  <p>図 5 は SC 中口径望遠鏡と GCT のために開発した専用集積回路 TARGET（<a href="http://arxiv.org/abs/1105.1832">arXiv:1105.1832</a>）の写真です。</p>
+	</div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4"></div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4">
+	  <div class="thumbnail">
+	    <img alt="TARGET-7 Evaluation Board" src="./img/TARGET7.jpg">
+	    <div class="caption" style="font-size:small;">
+	      Fig 5. TARGET-7 evaluation board<br>
+	      図 5. TARGET 7 評価ボード
+	    </div>
+	  </div>
+	</div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4"></div>
+
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;">
+	  <h4>Large-Sized Telescopes</h4>
+	</div>
+	
+	<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:justify;text-indent: 1em;" lang="ja">
+	  <h4>大口径望遠鏡</h4>
+	  <p>大口径望遠鏡は CTA の中で最大となる口径 23 m の光学系を持ちます。これは可能な限り低エネルギーのガンマ線を観測するためのもので、微弱な大気チェレンコフ光をこの巨大な鏡で集光します。低エネルギーのガンマ線を効率良く観測するには、鏡の巨大化だけでなく、鏡の反射率の向上、光検出器の高量子効率化、また光検出器への集光効率の改善が重要です。この集光効率の改善のために、図 6 に示す六角形の集光装置が光電子増倍管 1 本ずつに取り付けられます。</p>
+	  <p>宇宙地球環境研究所ではこの集光装置の性能を従来の 5% から 10% 程度改善することを目指し、反射フィルム（<a href="http://arxiv.org/abs/1508.07776">arXiv:1508.07776</a>）の開発や集光効率の高い装置形状の開発（<a href="http://arxiv.org/abs/1205.3968">arXiv:1205.3968</a>）に取り組み、茨城大学と共同で集光装置を製作しています。図 3 は、大口径望遠鏡の試作カメラに実際に集光装置が取り付けられた様子です。</p>
+	</div>
+	
+	<div class="col-md-2 col-sm-2 col-xs-2"></div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4">
+	  <div class="thumbnail">
+	    <img alt="LST Light Guides" src="./img/LG.jpg">
+	    <div class="caption" style="font-size:small;">
+	      Fig 6. Prototype light concentrators of LSTs (Image credit: Sakiya Ono)<br>
+	      図 6. 大口径望遠鏡用の試作集光装置
+	    </div>
+	  </div>
+	</div>
+
+	<div class="col-md-4 col-sm-4 col-xs-4">
+	  <div class="thumbnail">
+	    <img alt="LST Mini Camera" src="./img/MiniCamera.jpg">
+	    <div class="caption" style="font-size:small;">
+	      Fig 7. A prototype mini camera of LSTs<br>
+	      図 7. 大口径望遠鏡用試作カメラ
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="col-md-2 col-sm-2 col-xs-2"></div>
+
       </div>
     </div>
-
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
