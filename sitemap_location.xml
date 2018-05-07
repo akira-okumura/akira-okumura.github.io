@@ -4,18 +4,27 @@
     <loc>http://www.isee.nagoya-u.ac.jp/~okumura/index.html</loc> 
   </url>
   <url>
+    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/profile.html</loc>
+  </url>
+  <url>
+    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/publications.html</loc> 
+  </url>
+  <url>
     <loc>http://www.isee.nagoya-u.ac.jp/~okumura/cta.html</loc> 
   </url>
   <url>
     <loc>http://www.isee.nagoya-u.ac.jp/~okumura/fermi.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/publications.html</loc> 
+    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/robast.html</loc>
   </url>
   <url>
     <loc>http://www.isee.nagoya-u.ac.jp/~okumura/photos.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/robast.html</loc>
+    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/map.html</loc>
+  </url>
+  <url>
+    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/misc.html</loc>
   </url>
 </urlset>
