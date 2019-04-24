@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/index.html</loc> 
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/index.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/profile.html</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/profile.html</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/publications.html</loc> 
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/publications.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/cta.html</loc> 
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/cta.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/fermi.html</loc> 
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/fermi.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/robast.html</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/robast.html</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/photos.html</loc> 
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/photos.html</loc> 
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/map.html</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/map.html</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/misc.html</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/misc.html</loc>
   </url>
 
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/Okumura_PhD_Thesis.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/Okumura_PhD_Thesis.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/MasterThesisTemplate_v2.0.0.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/MasterThesisTemplate_v2.0.0.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-1.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-1.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-2.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-2.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-3.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-3.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-4.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-4.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-5.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-5.pdf</loc>
   </url>
   <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-6.pdf</loc>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA2017-6.pdf</loc>
   </url>
-    <url>
-    <loc>http://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA_v1.6.pdf</loc>
+  <url>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA_v1.6.pdf</loc>
+  </url>
+  <url>
+    <loc>https://www.isee.nagoya-u.ac.jp/~okumura/files/RHEA_v1.7.pdf</loc>
   </url>
 </urlset>
